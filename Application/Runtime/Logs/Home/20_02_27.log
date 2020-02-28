@@ -1,0 +1,94 @@
+[ 2020-02-27T14:38:18+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023604s ]
+ERR: 无法加载控制器:Message
+
+[ 2020-02-27T14:41:09+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载控制器:Message
+
+[ 2020-02-27T14:42:45+08:00 ] ::1 /oldpigclub/index.php/home/user/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+ERR: 非法操作:publish_new_message
+
+[ 2020-02-27T14:43:25+08:00 ] ::1 /oldpigclub/index.php/home/user/signin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '12345678' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2020-02-27T14:44:37+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011325s ]
+
+[ 2020-02-27T15:24:35+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message?user_id=4&username=300%E6%96%A4%E7%9A%84%E8%AD%A6%E5%AE%98&face_url=300.jpg&content=%E7%BB%99%E4%B8%AB%E4%B8%80%E9%94%85%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 13 行.
+
+[ 2020-02-27T15:25:40+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message?user_id=&username=300%E6%96%A4%E7%9A%84%E8%AD%A6%E5%AE%98&face_url=300.jpg&content=%E7%BB%99%E4%B8%AB%E4%B8%80%E9%94%85%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 13 行.
+
+[ 2020-02-27T15:26:43+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message?user_id=1&username=300%E6%96%A4%E7%9A%84%E8%AD%A6%E5%AE%98&face_url=300.jpg&content=%E7%BB%99%E4%B8%AB%E4%B8%80%E9%94%85%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 13 行.
+
+[ 2020-02-27T15:27:09+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message?user_id=4&username=300%E6%96%A4%E7%9A%84%E8%AD%A6%E5%AE%98&face_url=300.jpg&content=%E7%BB%99%E4%B8%AB%E4%B8%80%E9%94%85%E7%AB%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 13 行.
+
+[ 2020-02-27T15:29:43+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `message` (`user_id`,`username`,`face_url`,`content`,`total_likes`,`send_timestamp`) VALUES ('4','300斤的警官','300.jpg','给丫一锅端','0','1582788583') [ RunTime:0.0023s ]
+
