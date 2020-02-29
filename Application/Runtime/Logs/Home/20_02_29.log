@@ -1,0 +1,335 @@
+[ 2020-02-29T15:42:57+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016255s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0545s ]
+SQL: SELECT * FROM `message`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017359s ]
+
+[ 2020-02-29T15:44:58+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `message`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-02-29T15:45:39+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `message`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2020-02-29T15:48:17+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0054s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dese' at line 1
+ [ SQL语句 ] : SELECT * FROM `message` ORDER BY id dese 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dese' at line 1
+ [ SQL语句 ] : SELECT * FROM `message` ORDER BY id dese 
+
+[ 2020-02-29T15:48:36+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2020-02-29T15:53:48+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2020-02-29T16:11:06+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2020-02-29T16:12:15+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2020-02-29T16:12:17+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2020-02-29T16:13:33+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 116 行.
+
+[ 2020-02-29T16:15:39+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+SQL: INSERT INTO `message` (`user_id`,`username`,`face_url`,`content`,`total_likes`,`send_timestamp`) VALUES ('4','300斤的警官','300.jpg','老子天生黑手','0','1582964139') [ RunTime:0.0687s ]
+
+[ 2020-02-29T16:16:58+08:00 ] ::1 /oldpigclub/index.php/home/message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0083s ]
+SQL: INSERT INTO `message` (`user_id`,`username`,`face_url`,`content`,`total_likes`,`send_timestamp`) VALUES ('4','300斤的警官','300.jpg','老子梭哈宁神','0','1582964218') [ RunTime:0.0003s ]
+
+[ 2020-02-29T16:17:06+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2020-02-29T16:17:41+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2020-02-29T16:19:34+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2020-02-29T16:19:38+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2020-02-29T16:21:10+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2020-02-29T16:21:15+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2020-02-29T16:21:47+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0003s ]
+
+[ 2020-02-29T16:22:52+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0002s ]
+
+[ 2020-02-29T16:23:09+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 115 行.
+
+[ 2020-02-29T16:23:15+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2020-02-29T16:28:42+08:00 ] ::1 /oldpigclub/index.php/home/message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0002s ]
+
+[ 2020-02-29T16:30:53+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 144 行.
+
+[ 2020-02-29T16:31:20+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 144 行.
+
+[ 2020-02-29T16:31:21+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: user_all_messages D:\phpstudy_pro\WWW\OldPigClub\Application\Home\Controller\MessageController.class.php 第 144 行.
+
+[ 2020-02-29T16:32:13+08:00 ] ::1 /oldpigclub/index.php/home/message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 4 ORDER BY id desc  [ RunTime:0.0003s ]
+

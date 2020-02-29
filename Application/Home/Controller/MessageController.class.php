@@ -81,7 +81,7 @@ class MessageController extends BaseController {
         //dump($_POST);
     }
 
-    // 得到所有树洞
+    // 得到所有信息
     public function get_all_messages(){
 
     	// 实例化数据表
@@ -89,8 +89,74 @@ class MessageController extends BaseController {
 
     	// 设置查询条件
 
-    	// 获取所有树洞
-    	$all_messages = $Message->select();
+    	// 获取所有树洞并按时间倒序
+    	$all_messages = $Message->order('id desc')->select();
+    	
+    	// 将所有的时间戳转换为yyyy-mm-dd hh:ii:ss
+    	foreach ($all_messages as $key => $message) {
+    		
+    		$all_messages[$key]['send_timestamp'] = date('Y-m-d H:i:s', $message['send_timestamp']);
+    	}
+
+    	$return_data = array();
+    	$return_data['error_code'] = 0;
+    	$return_data['msg'] = '数据获取成功';
+    	$return_data['data'] = $all_messages;
+
+    	$this->ajaxReturn($return_data);
+
+    	// dump($all_messages);
+    }
+
+    // 得到用户所有信息
+    public function get_one_user_all_messages(){
+
+    	//检查参数是否存在
+        if (!$_POST['user_id']) {
+        	
+        	$return_data = array();
+        	$return_data['error_code'] = 1;
+        	$return_data['msg'] = '参数不足：user_id';
+
+        	$this->ajaxReturn($return_data);
+        }
+        
+
+        // 实例化数据表
+    	$Message = M('Message');
+
+    	// 设置查询条件
+    	$where = array();
+    	$where['user_id'] = $_POST['user_id'];
+
+    	// 查询数据并按时间倒序
+    	$user_all_messages = $Message->where($where)->order('id desc')->select();
+
+    	// 将所有的时间戳转换为yyyy-mm-dd hh:ii:ss
+    	foreach ($user_all_messages as $key => $message) {
+    		
+    		$user_all_messages[$key]['send_timestamp'] = date('Y-m-d H:i:s', $message['send_timestamp']);
+    	}
+
+    	// 组装返回数据
+    	$return_data = array();
+    	$return_data['error_code'] = 0;
+    	$return_data['msg'] = '用户消息获取成功';
+    	$return_data['data'] = $user_all_messages;
+
+    	$this->ajaxReturn($return_data);
+
+    	// dump($user_all_message);
+
+    	// dump($Message->getLastSql());
+        
+    }
+
+    // 点赞接口
+    public function do_like(){
+
+    	// 校验参数
+
     }
 
 }

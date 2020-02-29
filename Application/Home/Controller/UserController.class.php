@@ -55,7 +55,7 @@ class UserController extends BaseController {
 
     	// 检验手机号是否已经被注册
 
-    	 $User = M('User');
+    	$User = M('User');
 
     	//构造查询条件
     	$where = array();
