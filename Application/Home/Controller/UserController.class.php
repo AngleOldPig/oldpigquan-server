@@ -11,7 +11,7 @@ class UserController extends BaseController {
     	if(!$_POST['username']){
     		
     		$return_data = array();
-    		$return_data['error_code'] = 1;
+    		$return_data['error_code'] = 1.1;
     		$return_data['msg'] = '参数不足：username';
 
     		$this->ajaxReturn($return_data);
@@ -20,7 +20,7 @@ class UserController extends BaseController {
     	if (!$_POST['phone']) {
     		
     		$return_data = array();
-    		$return_data['error_code'] = 1;
+    		$return_data['error_code'] = 1.2;
     		$return_data['msg'] = '参数不足：phone';
 
     		$this->ajaxReturn($return_data);
@@ -29,7 +29,7 @@ class UserController extends BaseController {
     	if (!$_POST['password']) {
     		
     		$return_data = array();
-    		$return_data['error_code'] = 1;
+    		$return_data['error_code'] = 1.3;
     		$return_data['msg'] = '参数不足：password';
 
     		$this->ajaxReturn($return_data);
@@ -38,7 +38,7 @@ class UserController extends BaseController {
     	if (!$_POST['password_again']) {
     		
     		$return_data = array();
-    		$return_data['error_code'] = 1;
+    		$return_data['error_code'] = 1.4;
     		$return_data['msg'] = '参数不足：password_again';
 
     		$this->ajaxReturn($return_data);
@@ -125,7 +125,7 @@ class UserController extends BaseController {
     	if(!$_POST['phone']){
 
     		$return_data = array();
-    		$return_data['error_code'] = 1;
+    		$return_data['error_code'] = 1.1;
     		$return_data['msg'] = '参数不足：phone';
 
     		$this->ajaxReturn($return_data);
@@ -134,7 +134,7 @@ class UserController extends BaseController {
 
     	if (!$_POST['password']) {
     		$return_data = array();
-    		$return_data['error_code'] = 1;
+    		$return_data['error_code'] = 1.2;
     		$return_data['msg'] = '参数不足：password';
 
     		$this->ajaxReturn($return_data);
